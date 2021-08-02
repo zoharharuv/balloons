@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.sky {
+  position: relative;
+  min-height: 100vh;
+  background-color: rgb(135,206,235);
+}
+
+.balloon {
+  width: 90px;
+  height: 120px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 100ms;
+}
+
+.poped {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.balloon1 {
+  background-color: yellow;
+  left: 10%;  
+}
+
+.balloon2 {
+  background-color: rgb(19, 13, 75);
+  left: 25%;
+}
+.balloon3 {
+  background-color: rgb(223, 149, 37);
+  left: 40%;
+}
+.balloon4 {
+  background-color: rgb(214, 63, 219);
+  left: 55%;
+}
+.balloon5 {
+  background-color: rgb(218, 23, 23);
+  left: 70%;
+}
